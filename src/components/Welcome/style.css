@@ -1,0 +1,10 @@
+.welcome {
+	background-color: #E5D8C7;
+	color: #2D110B;
+}
+
+@media only screen and (max-width: 40em) {
+.welcome {
+	padding: 5%;
+}
+}

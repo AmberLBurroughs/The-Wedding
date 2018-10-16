@@ -1,0 +1,113 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 4%;
+    position: absolute;
+    width: 100%;
+}
+.navbar .container {
+    padding-right:0;
+    padding-left: 100px;
+}
+.navbar-nav {
+	float: none;
+   	margin: 0;
+   	text-align: center;
+   	margin: 34px 0 0;
+}
+.navbar-nav>li, .nav>li {
+	float: none;
+    display: inline-block;
+    color: #2D110B;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #2D110B;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+}
+.navbar-brand>img {
+	height: 80px;
+}
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: 15px 15px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 40em) {
+
+    .navbar .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-default .navbar-toggle {
+        border: none;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #2D110B;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none;
+        border-top: 1px solid #2D110B;
+        border-bottom: 1px solid #2D110B;
+        background: rgba(229, 216, 199,.5);
+    }
+    .navbar-nav {
+        margin: 6px 0 0;
+    }
+    .navbar-toggle {
+        margin-top: 38px;
+    }
+ } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .navbar .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-default .navbar-toggle {
+        border: none;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #2D110B;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none;
+        border-top: 1px solid #2D110B;
+        border-bottom: 1px solid #2D110B;
+        background: rgba(229, 216, 199,.5);
+    }
+    .navbar-nav {
+        margin: 6px 0 0;
+    }
+    .navbar-toggle {
+        margin-top: 38px;
+    }
+    .navbar-collapse {
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: @screen-sm-min) {
+
+}*/
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: @screen-md-min) { ... }*/
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min) { ... }*/

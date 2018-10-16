@@ -1,0 +1,34 @@
+.rsvp {
+	background: url("/assets/img/RSVP.jpg") no-repeat fixed;
+	width: 100%;
+	height: 600px;
+	background-size: 100% 700px;
+	color: #E5D8C7;
+	padding-top: 15%;
+}
+.rsvp img{
+	max-width: 100%;
+}
+.rsvp-img {
+	height: 30px;
+	margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 40em) {
+	.rsvp {
+	    background: url(/assets/img/RSVP.jpg) no-repeat;
+	    width: 100%;
+	    height: 350px;
+	    background-size: 100% 350px;
+	    padding: 15% 5% 0;
+	}
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.rsvp {
+		background: url(/assets/img/RSVP.jpg) no-repeat;
+		height: 400px;
+	    background-size: 100% 400px;
+	}
+}

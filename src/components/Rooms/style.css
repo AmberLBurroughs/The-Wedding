@@ -1,0 +1,66 @@
+.room-info {
+	color: #E5D8C7;
+	height: 350px;
+	margin: 5% 3%;
+
+}
+.room-img {
+	padding: 15% 5% 0;
+}
+.room-info h1 {
+	margin: 0;
+}
+
+.standard {
+	background: url("/assets/img/Standard.jpg") no-repeat;
+	background-size: 100% 350px;
+}
+.superior {
+	background: url("/assets/img/Superior.jpg") no-repeat;
+	background-size: 100% 350px;
+}
+.junior {
+	background: url("/assets/img/Junior.jpg") no-repeat;
+	background-size: 100% 350px;
+}
+.suite {
+	background: url("/assets/img/Imperial.jpg") no-repeat;
+	background-size: 100% 350px;
+}
+.apartment {
+	background: url("/assets/img/Apartment.jpg") no-repeat;
+	background-size: 100% 350px;
+}
+.download{
+	margin:5%;
+}
+
+.room-d {
+	background: url("/assets/img/Descriptions.jpg") no-repeat;
+	height:155px;
+	margin-bottom: 20px;
+	background-size: 100%;
+
+}
+.map-p {
+	background: url("/assets/img/Map.jpg") no-repeat;
+	height:155px;
+	margin-top: 20px;
+	background-size: 100%;
+}
+
+.download button {
+	color: #E5D8C7;
+	cursor: pointer;
+	margin: 5% 5% 0;
+	background-color: transparent;
+	border: none;
+}
+.download button:hover {
+	text-decoration: underline;
+}
+@media only screen and (max-width: 40em) {
+
+}
+
+

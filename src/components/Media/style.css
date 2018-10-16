@@ -1,0 +1,35 @@
+.audio-player {
+	width: 200px;
+
+}
+
+.audio-player:hover {
+	opacity: .7;
+}
+.media  {
+	position: absolute;
+	top: 500px;
+    right: 15px;
+    z-index: 6;
+}
+.media  button {
+	background: transparent;
+	border: none;
+}
+.media img {
+	width: 20px;
+	display: block;
+	margin: 30px auto;
+}
+.media.audio {
+	height: 20px;
+}
+
+@media only screen and (max-width: 40em) {
+	.media  {
+		top: 285px;
+	}
+	.media img {
+	width: 15px;
+}
+}

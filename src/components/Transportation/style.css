@@ -1,0 +1,28 @@
+.transportation {
+	margin-top: 3%;
+	color:#E5D8C7;
+	background: url("/assets/img/CarTrainTaxi.jpg") fixed center no-repeat;
+	padding: 10% 0 0;
+	height: 700px;
+	background-size: 100% 700px;
+}
+.transportation h1 {
+	margin-bottom: 0;
+}
+@media only screen and (max-width: 40em) {
+	.transportation {
+		background: url("/assets/img/CarTrainTaxi.jpg") center no-repeat;
+		height: auto;
+		background-size: cover;
+		padding: 0 0 5%;
+	}
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.transportation {
+		background: url("/assets/img/CarTrainTaxi.jpg") center no-repeat fixed;
+		height: auto;
+		background-size: cover;
+		padding: 0 0 5%;
+	}
+}

@@ -1,0 +1,29 @@
+.hero {
+	background: url("/assets/img/Home.jpg") center fixed;
+	background-size: cover;
+	min-height: 100vh;
+}
+.hero img {
+	height: 250px;
+	margin-top: 15%;
+}
+
+
+
+@media only screen and (max-width: 40em) {
+	.hero img {
+	    height: 150px ;
+	    margin-top: 70%;
+	}
+	.hero{
+	    background: url("/assets/img/Home.jpg")no-repeat bottom;
+	    background-size: cover;
+	    min-height: 500px;
+	}
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.hero img {
+		height: 300px;
+		margin-top: 45%;
+	}
+}

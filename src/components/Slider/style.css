@@ -1,0 +1,38 @@
+.slider {
+	margin-top: 3%;
+}
+.carousel-inner {
+	height: 250px;
+}
+
+.carousel-inner > .item > img {
+	margin: 0 auto;
+}
+
+.carousel-caption {
+	position: static;
+	color: #2D110B;
+	box-shadow: none;
+	text-shadow: none;
+}
+.carousel-indicators .active {
+	background-color: #914931;
+	border: 1px solid #914931;
+}
+.carousel-indicators li {
+	border: 1px solid #914931;
+}
+
+
+@media only screen and (max-width: 40em) {
+
+	.carousel-inner {
+		height: 650px;
+	}
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.carousel-inner {
+		height: 650px;
+	}
+
+}

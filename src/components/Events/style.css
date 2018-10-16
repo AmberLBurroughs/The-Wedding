@@ -1,0 +1,41 @@
+.events {
+	background-color: #E5D8C7;
+	color: #2D110B;
+	margin-top: 75px;
+	padding: 3% 0;
+}
+.events sup {
+	font-size: 10px;
+}
+.event-img {
+	height: 26px;
+	margin-bottom: 15px;
+}
+.events .first {
+	border-right: 1px solid #914931;
+}
+.events .last {
+	border-left: 1px solid #914931;
+}
+.event-info p {
+	font-size: 10px;
+	margin: 0;
+}
+.events-titles {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.events-date {
+	margin: 30px 0;
+}
+
+@media only screen and (max-width: 40em) {
+	.events {
+		margin-top: 0;
+		padding-top: 0;
+	}
+	.events-date {
+		margin-top: 0;
+		margin-bottom: 50px;
+	}
+ } /* max-width 640px, mobile-only styles, use when QAing mobile issues */

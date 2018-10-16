@@ -1,0 +1,25 @@
+.lake-o {
+	background: url("/assets/img/LakeOrta.jpg")no-repeat;
+}
+.tuscany {
+	background: url("/assets/img/Tuscany.jpg")no-repeat;
+}
+.amalfi-c {
+	background: url("/assets/img/AmalfiCoast.jpg")no-repeat;
+}
+.location-img {
+	height: 355px;
+	background-size: 100% 355px;
+	padding: 10% 20% 0;
+	color: #E5D8C7;
+
+}
+.where-to {
+	margin-top: 3%;
+}
+@media only screen and (max-width: 40em) {
+	.location-img{
+		padding: 10% 5% 0;
+		height: auto;
+	}
+}
